@@ -5,7 +5,7 @@
 <h1 align="center">🚗 Parking Simulator</h1>
 
 <p align="center">
-A 3D parking simulation game developed using <b>Unity 6</b> and <b>C#</b>, challenging players to complete increasingly difficult parking missions with realistic vehicle controls, manual gear transmission, and immersive gameplay.
+A 3D Parking Simulation Game built with <b>Unity 6</b> and <b>C#</b> featuring realistic driving mechanics, manual transmission, multi-level progression, and immersive gameplay.
 </p>
 
 <p align="center">
@@ -18,13 +18,45 @@ A 3D parking simulation game developed using <b>Unity 6</b> and <b>C#</b>, chall
 
 </p>
 
+<p align="center">
+
+🎮 <a href="https://youtu.be/NGfSGcj-uqE?si=mF_ESYc3zACO870g">Gameplay Demo</a> •
+💻 <a href="https://github.com/Adytia250">GitHub Profile</a>
+
+</p>
+
 ---
 
-# 🎮 About The Project
+# 🎮 Gameplay Preview
 
-Parking Simulator is a 3D simulation game where players must drive and park a vehicle accurately within a designated parking area before time runs out. The game focuses on realistic driving mechanics using a manual gear system, challenging players to master speed control, steering precision, and parking accuracy across multiple levels.
+<p align="center">
+<img src="images/hero.png" width="95%">
+</p>
 
-The project was developed as part of a Unity Game Development course while emphasizing clean gameplay mechanics, modular scripting, and user-friendly interface design.
+> *(Replace with gameplay.gif later for a more dynamic presentation.)*
+
+---
+
+# 📖 About The Project
+
+Parking Simulator is a 3D simulation game where players must navigate a vehicle and park precisely within a designated parking area before the timer expires. The project emphasizes realistic vehicle movement, manual gear transmission, responsive controls, and progressive level design.
+
+Developed using Unity 6 and C#, the project demonstrates modular game architecture, scene management, UI systems, audio integration, and gameplay programming principles.
+
+---
+
+# 🌟 Project Highlights
+
+- 🚗 Realistic Car Controller
+- ⚙ Manual Gear Transmission (R, N, 1–5)
+- 🎯 Accurate Parking Detection
+- 🏁 Multi-Level Gameplay
+- 🎵 Dynamic Audio System
+- 🕹 Pause, Restart & Exit Menu
+- 📊 Best Record Tracking
+- ⏳ Countdown Timer
+- 🚦 Scene Management
+- 🖥 Responsive Game UI
 
 ---
 
@@ -32,7 +64,7 @@ The project was developed as part of a Unity Game Development course while empha
 
 ▶ **Watch Full Gameplay**
 
-[https://youtu.be/NGfSGcj-uqE?si=mF_ESYc3zACO870g]
+https://youtu.be/NGfSGcj-uqE?si=mF_ESYc3zACO870g
 
 ---
 
@@ -41,60 +73,50 @@ The project was developed as part of a Unity Game Development course while empha
 ## Main Menu
 
 <p align="center">
-<img src="images/mainMenu.png" width="85%">
+<img src="images/mainMenu.png" width="90%">
 </p>
-
----
 
 ## Gameplay
 
 <p align="center">
-<img src="images/hero.png" width="85%">
+<img src="images/hero.png" width="90%">
 </p>
-
----
 
 ## Pause Menu
 
 <p align="center">
-<img src="images/pause.png" width="85%">
+<img src="images/pause.png" width="90%">
 </p>
-
----
 
 ## Success Screen
 
 <p align="center">
-<img src="images/success.png" width="85%">
+<img src="images/success.png" width="90%">
 </p>
 
 ---
 
-# ✨ Key Features
+# ✨ Features
 
 ## 🚗 Gameplay
 
 - Multi-Level Parking Missions
 - Manual Gear System (R, N, 1–5)
 - Realistic Vehicle Movement
-- Accurate Parking Detection
+- Precise Parking Detection
 - Countdown Timer
 - Win & Game Over System
 
----
-
-## 🎵 Audio
+### 🎵 Audio
 
 - Background Music
 - Engine Idle Sound
 - Engine Running Sound
 - Finish Sound Effect
 - Game Over Sound
-- Audio ON/OFF Toggle
+- Audio Toggle (ON/OFF)
 
----
-
-## 🖥 User Interface
+### 🖥 User Interface
 
 - Loading Screen
 - Main Menu
@@ -104,31 +126,29 @@ The project was developed as part of a Unity Game Development course while empha
 - Success Screen
 - Game Over Screen
 
----
+### 🏆 Progression
 
-## 🏆 Progression
-
-- Best Record System
-- Current Record Tracking
+- Best Record Tracking
+- Current Record
 - Multi-Level Progression
 - Scene Transition
 
 ---
 
-# ⚙ Technologies Used
+# ⚙ Technology Stack
 
 | Technology | Description |
 |------------|-------------|
 | Unity 6 | Game Engine |
 | C# | Gameplay Programming |
-| Visual Studio | Code Editor |
+| Visual Studio | IDE |
 | TextMeshPro | User Interface |
 | Git | Version Control |
 | GitHub | Repository Hosting |
 
 ---
 
-# 🏗 Game Architecture
+# 🏗 System Architecture
 
 ```
 Player Input
@@ -159,7 +179,6 @@ UI Manager
 
 ```
 Assets
-│
 ├── Audio
 ├── Materials
 ├── Models
@@ -168,7 +187,7 @@ Assets
 ├── Scripts
 ├── Textures
 ├── UI
-│
+
 Packages
 ProjectSettings
 README.md
@@ -176,41 +195,32 @@ README.md
 
 ---
 
-# 🎯 Development Challenges
+# 🎯 Challenges Solved
 
-During development, several technical challenges were encountered and successfully resolved:
+During development, several technical challenges were successfully addressed:
 
-- Designing a realistic manual gear transmission system.
-- Implementing smooth vehicle movement and steering mechanics.
-- Creating an accurate parking detection system.
-- Managing scene transitions between multiple levels.
-- Developing responsive UI for desktop gameplay.
-- Integrating background music and sound effects.
-- Implementing pause, restart, and exit functionality.
+- Implemented a realistic manual gear transmission.
+- Developed responsive steering and acceleration mechanics.
+- Built an accurate parking detection system.
+- Managed multi-scene level progression.
+- Designed responsive UI for gameplay.
+- Integrated music and sound effects.
+- Created Pause, Restart, and Exit systems.
 
 ---
 
 # 🚀 Project Outcome
 
-✔ 3 Interactive Scenes
-
-✔ Realistic Parking Simulation
-
-✔ Manual Gear System
-
-✔ Multi-Level Gameplay
-
-✔ Dynamic Audio System
-
-✔ Loading Scene
-
-✔ Pause Menu
-
-✔ Main Menu
-
-✔ Success & Game Over System
-
-✔ Best Record Tracking
+- ✅ 3 Interactive Scenes
+- ✅ Manual Gear Transmission
+- ✅ Realistic Parking Simulation
+- ✅ Multi-Level Gameplay
+- ✅ Audio System
+- ✅ Loading Scene
+- ✅ Pause Menu
+- ✅ Main Menu
+- ✅ Success & Game Over Screen
+- ✅ Best Record System
 
 ---
 
@@ -222,9 +232,22 @@ During development, several technical challenges were encountered and successful
 | ↓ | Brake |
 | ← | Turn Left |
 | → | Turn Right |
-| R | Reverse Gear |
+| R | Reverse |
 | N | Neutral |
-| 1-5 | Forward Gear |
+| 1–5 | Forward Gear |
+
+---
+
+# 🔮 Future Improvements
+
+- Mini Map Navigation
+- AI Traffic Vehicles
+- Vehicle Selection
+- Weather System
+- Mobile Version
+- Save Progress
+- Multiplayer Parking Mode
+- Achievement System
 
 ---
 
@@ -232,41 +255,31 @@ During development, several technical challenges were encountered and successful
 
 ## Adytia Damar Panuntun
 
-Informatics Student
-
+**Informatics Student**  
 Wijaya Kusuma University Surabaya
 
-### Areas of Interest
+### Interests
 
 - Unity Game Development
 - Artificial Intelligence
+- Software Engineering
 - Web Development
 - Interactive Systems
-- Software Engineering
 
----
+📧 Email  
+adytiaoblek07@gmail.com
 
-### GitHub
-
+💻 GitHub  
 https://github.com/Adytia250
 
-### Portfolio
-
-https://glints.com/id/profile
-
-### Demo Video
-
+🎥 Demo Video  
 https://youtu.be/NGfSGcj-uqE?si=mF_ESYc3zACO870g
-
-### Email
-
-adytiaoblek07@gmail.com
 
 ---
 
 <p align="center">
 
-⭐ If you like this project, don't forget to leave a star!
+⭐ If you found this project interesting, please consider giving it a Star!
 
 Made with ❤️ using Unity 6 & C#
 
